@@ -1,3 +1,4 @@
+
 #1
 def F1(n):
     m=input('entrer une chaine de caractere :')

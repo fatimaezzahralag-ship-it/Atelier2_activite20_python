@@ -1,9 +1,9 @@
 t1=[31,28,31,30,31,30,31,31,30,31,30,31]
 t2=['janvier','fevrier','mars','avril','mai','juin','juillet','aout','septembre','octobre','novembre','decembre']
-'''t3=[]
+t3=[]
 c1=0
 c2=0
-
+#methode 1
 for k in range(12):
     
     for i in range(len(t2)) :
@@ -42,13 +42,16 @@ for i in A:
 
     B.append(i)
 
-print(B)'''
+print(B)
 
-'''up date de la question 2
+
+#methode  2
 t3 = []
 for i in range(len(t1)):
     t3.append(t2[i])
-    t3.append(t1[i])'''
+    t3.append(t1[i])
+    
+#methode 3
 d=0
 for i in range(len(t1)):
    
